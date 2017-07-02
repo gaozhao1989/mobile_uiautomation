@@ -31,4 +31,4 @@ mac安装方式: brew install allure
 **test设置规则**
 1. 测试类文件名命名规则为“test_xxxx”或者“xxxx_test”，否则将无法识别
 2. 测试类文件内类名以“Testxxxx”开头，否则将无法识别
-3. 测试类文件内测试方法以"test_xxxx"开头，狗则将无法识别
+3. 测试类文件内测试方法以"test_xxxx"开头，否则将无法识别
