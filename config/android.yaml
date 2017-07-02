@@ -1,0 +1,10 @@
+---
+capabilities:
+    platformName: android
+    platformVersion: 7.0
+    device: android_device
+    deviceName: Nexus5
+    newCommandTimeout: 240
+    app: ApiDemos-debug.apk
+    appPackage: com.example.android.apis
+    appActivity: .ApiDemos

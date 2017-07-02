@@ -1,0 +1,18 @@
+---
+demo_page:
+    dec: "login page elements"
+    elements:
+       text_accessibility:
+        android:
+            find_by: android_uiautomator
+            value: new UiSelector().description("Accessibility")
+        ios:
+            find_by: uiAutomator
+            value: .buttons()["Settings"]
+       text_content:
+        android:
+            find_by: android_uiautomator
+            value: new UiSelector().resourceId("android:id/list").index(0).childSelector(new  UiSelector().resourceId("android:id/text1")).index(3)
+        ios:
+            find_by: xpath
+            value: //UIACollectionView[2]/UIACollectionCell

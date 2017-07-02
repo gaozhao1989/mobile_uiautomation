@@ -1,0 +1,10 @@
+---
+capabilities:
+    platformName: iOS
+    platformVersion: 10.0
+    device: ios_device
+    deviceName: iPhone
+    newCommandTimeout: 240
+    app: path_for_app
+    autoAcceptAlerts: true
+    bundleId: com.example.ios.apis
